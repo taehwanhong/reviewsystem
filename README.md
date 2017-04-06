@@ -11,3 +11,9 @@
 6. BootStrap
 7. jQuery
 
+## dev history
+* branch beta1.0
+  1. surveyjs installation with npm
+  2. survey UI component test
+
+
