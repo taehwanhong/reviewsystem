@@ -13,7 +13,8 @@
 
 ## dev history
 * branch beta1.0
+  0. Project setup
   1. surveyjs installation with npm
   2. survey UI component test
-
+  3. 
 
