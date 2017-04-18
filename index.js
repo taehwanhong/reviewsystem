@@ -15,6 +15,8 @@
 // })
 
 // 생활코딩 강의
+
+
 const express = require('express'); //가져온 express모듈은 함수라서
 const app = express(); // 이렇게 담아줘야함 이건 메뉴얼에 있다
 // express를 담은 app에는 listen, get등이 있음
@@ -22,6 +24,9 @@ app.listen(3000, function(){
     console.log("connect 3000 port");
 })
 // listen은, 포트를 설정해서 청취함
+
+app.use(express.static('public'));
+
 
 // get 방식으로 접속. 이런 메소드를 호출
 
